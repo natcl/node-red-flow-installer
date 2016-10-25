@@ -1,9 +1,9 @@
 {
-    "name"         : "netbooter-example",
+    "name"         : "node-red-package",
     "version"      : "0.0.1",
     "description"  : "A Node-RED Moment Factory project template",
     "scripts": {
-      "postinstall": "scripts/copylib.js"
+      "postinstall": "node scripts/copylib.js"
     },
     "dependencies": {
         "fs-extra": "0.8.1"
