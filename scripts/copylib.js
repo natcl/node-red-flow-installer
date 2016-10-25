@@ -1,3 +1,3 @@
 var fs = require('fs-extra');
 
-fs.copySync('lib', '../lib');
+fs.copySync('node_modules/node-red-package/lib', 'lib');
