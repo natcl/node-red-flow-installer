@@ -1,12 +1,12 @@
 {
-    "name"         : "node-red-package",
+    "name"         : "node-red-flow-installer",
     "version"      : "0.0.1",
-    "description"  : "A Node-RED Moment Factory project template",
+    "description"  : "Flows placed in lib/flows will be installed",
     "scripts": {
       "postinstall": "node scripts/copylib.js"
     },
     "dependencies": {
-        "fs-extra": "0.8.1"
+        "fs-extra": "~0.8.1"
     },
     "repository": {
       "type": "git",
